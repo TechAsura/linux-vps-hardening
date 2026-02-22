@@ -1,0 +1,10 @@
+# SSH Config
+
+# Hostinger VPS
+Host hostinger
+    HostName xxx.xxx.xxx.xxx
+    User your-username
+    Port 65002
+    IdentityFile ~/.ssh/id_ed25519
+    PasswordAuthentication no
+    PubkeyAuthentication yes
