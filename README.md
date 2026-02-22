@@ -4,6 +4,10 @@
 
 This project documents the provisioning and security hardening of a Linux VPS hosted on Hostinger. The goal was to reduce attack surface and implement best-practice server security controls. This project was completed as part of my self-directed infrastructure learning outside of formal coursework.
 
+## Architecture
+
+![Infrastructure Overview](architecture/architecture_diagram.png)
+
 ## Environment
 
 Hosting Provider: Hostinger VPS
