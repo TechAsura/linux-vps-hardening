@@ -1,0 +1,51 @@
+# ========================
+# OS - Windows
+# ========================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ========================
+# IDE - JetBrains
+# ========================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ========================
+# VPS / Linux Hardening
+# ========================
+# Environment files
+.env
+.env.*
+!.env.example
+
+# SSH keys - never commit these
+*.pem
+*.key
+*.pub
+id_rsa
+id_ed25519
+authorized_keys
+known_hosts
+
+# Ansible secrets / vault
+*.vault
+vault_pass.txt
+group_vars/all/vault.yml
+
+# Logs
+*.log
+logs/
+
+# Backup files
+*.bak
+*.backup
+
+# Sensitive configs
+secrets/
+credentials/
